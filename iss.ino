@@ -327,7 +327,7 @@ void displayPeopleOLED() {
   }
 }
 
-//
+//This is an unfunctionnal rocket launch api, to be revised.
 //void getrocket(){
 //  
 //if (WiFi.status() == WL_CONNECTED) {
@@ -461,7 +461,7 @@ void displayPeopleOLED() {
 //  delay(5000);  // Adjust the delay between updates
 //  }
 
-  //exoplanètes 
+  //exoplanètes counter api 
   
 String fetchExoplanetData(const char* apiUrl) {
   WiFiClient wifiClient; // Create a WiFiClient instance
